@@ -1,0 +1,1 @@
+{"ping":25,"download":51.7,"upload":49.8}
