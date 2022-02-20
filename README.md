@@ -10,6 +10,7 @@ Memory: 32 GB
 ### Software
 
 - [limactl](https://github.com/lima-vm/lima) 0.8.0
+  - If not specified
 - [UnixBench](https://github.com/kdlucas/byte-unixbench) 5.1.3
 - [speed-test](https://github.com/sindresorhus/speed-test) 3.0.0
 
