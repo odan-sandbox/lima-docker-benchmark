@@ -1,3 +1,3 @@
 #!/bin/bash
 
-speed-test --json
+speed-test

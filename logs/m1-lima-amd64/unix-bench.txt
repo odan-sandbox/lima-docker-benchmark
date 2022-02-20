@@ -1,0 +1,177 @@
+root@25a14aee3c15:/work# ./scripts/unix-bench.sh  
+make all
+make[1]: Entering directory '/work/byte-unixbench/UnixBench'
+make distr
+make[2]: Entering directory '/work/byte-unixbench/UnixBench'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[2]: Leaving directory '/work/byte-unixbench/UnixBench'
+make programs
+make[2]: Entering directory '/work/byte-unixbench/UnixBench'
+make[2]: Nothing to be done for 'programs'.
+make[2]: Leaving directory '/work/byte-unixbench/UnixBench'
+make[1]: Leaving directory '/work/byte-unixbench/UnixBench'
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+sh: 1: 3dinfo: not found
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+------------------------------------------------------------------------------
+   Use directories for:
+      * File I/O tests (named fs***) = /work/byte-unixbench/UnixBench/tmp
+      * Results                      = /work/byte-unixbench/UnixBench/results
+------------------------------------------------------------------------------
+
+Use of uninitialized value in printf at ./Run line 1479.
+Use of uninitialized value in printf at ./Run line 1739.
+
+1 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+1 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+1 x Execl Throughput  1 2 3
+
+1 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+1 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+1 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+1 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+1 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+1 x Process Creation  1 2 3
+
+1 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+1 x Shell Scripts (1 concurrent)  1 2 3
+
+1 x Shell Scripts (8 concurrent)  1 2 3
+
+4 x Dhrystone 2 using register variables  1 2 3 4 5 6 7 8 9 10
+
+4 x Double-Precision Whetstone  1 2 3 4 5 6 7 8 9 10
+
+4 x Execl Throughput  1 2 3
+
+4 x File Copy 1024 bufsize 2000 maxblocks  1 2 3
+
+4 x File Copy 256 bufsize 500 maxblocks  1 2 3
+
+4 x File Copy 4096 bufsize 8000 maxblocks  1 2 3
+
+4 x Pipe Throughput  1 2 3 4 5 6 7 8 9 10
+
+4 x Pipe-based Context Switching  1 2 3 4 5 6 7 8 9 10
+
+4 x Process Creation  1 2 3
+
+4 x System Call Overhead  1 2 3 4 5 6 7 8 9 10
+
+4 x Shell Scripts (1 concurrent)  1 2 3
+
+4 x Shell Scripts (8 concurrent)  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: 25a14aee3c15: GNU/Linux
+   OS: GNU/Linux -- 5.13.0-22-generic -- #22-Ubuntu SMP Fri Nov 5 13:21:36 UTC 2021
+   Machine: x86_64 (unknown)
+   Language: en_US.utf8 (charmap="ANSI_X3.4-1968", collate="ANSI_X3.4-1968")
+   CPU 0: Intel Core Processor (Haswell, no TSX, IBRS) (2000.0 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 1: Intel Core Processor (Haswell, no TSX, IBRS) (2000.0 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 2: Intel Core Processor (Haswell, no TSX, IBRS) (2000.0 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 3: Intel Core Processor (Haswell, no TSX, IBRS) (2000.0 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   ; runlevel 
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Feb 19 2022 22:13:36 - 22:41:56
+4 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables        3275222.2 lps   (10.1 s, 7 samples)
+Double-Precision Whetstone                      384.4 MWIPS (9.9 s, 7 samples)
+Execl Throughput                                 65.8 lps   (29.8 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks         10557.4 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks            2706.9 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks         37567.9 KBps  (30.0 s, 2 samples)
+Pipe Throughput                               17625.6 lps   (10.1 s, 7 samples)
+Pipe-based Context Switching                   3337.4 lps   (10.1 s, 7 samples)
+Process Creation                                468.2 lps   (30.1 s, 2 samples)
+Shell Scripts (1 concurrent)                    197.0 lpm   (60.3 s, 2 samples)
+Shell Scripts (8 concurrent)                     25.5 lpm   (61.2 s, 2 samples)
+System Call Overhead                          12523.7 lps   (10.1 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    3275222.2    280.7
+Double-Precision Whetstone                       55.0        384.4     69.9
+Execl Throughput                                 43.0         65.8     15.3
+File Copy 1024 bufsize 2000 maxblocks          3960.0      10557.4     26.7
+File Copy 256 bufsize 500 maxblocks            1655.0       2706.9     16.4
+File Copy 4096 bufsize 8000 maxblocks          5800.0      37567.9     64.8
+Pipe Throughput                               12440.0      17625.6     14.2
+Pipe-based Context Switching                   4000.0       3337.4      8.3
+Process Creation                                126.0        468.2     37.2
+Shell Scripts (1 concurrent)                     42.4        197.0     46.5
+Shell Scripts (8 concurrent)                      6.0         25.5     42.5
+System Call Overhead                          15000.0      12523.7      8.3
+                                                                   ========
+System Benchmarks Index Score                                          30.4
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Feb 19 2022 22:41:56 - 23:10:46
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables        3201862.2 lps   (10.2 s, 7 samples)
+Double-Precision Whetstone                      400.4 MWIPS (9.4 s, 7 samples)
+Execl Throughput                                 65.5 lps   (29.7 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks         10398.5 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks            2698.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks         37022.5 KBps  (30.0 s, 2 samples)
+Pipe Throughput                               17357.7 lps   (10.2 s, 7 samples)
+Pipe-based Context Switching                   4672.0 lps   (10.2 s, 7 samples)
+Process Creation                                502.4 lps   (30.2 s, 2 samples)
+Shell Scripts (1 concurrent)                    191.9 lpm   (60.8 s, 2 samples)
+Shell Scripts (8 concurrent)                     22.3 lpm   (64.6 s, 2 samples)
+System Call Overhead                          12337.7 lps   (10.2 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    3201862.2    274.4
+Double-Precision Whetstone                       55.0        400.4     72.8
+Execl Throughput                                 43.0         65.5     15.2
+File Copy 1024 bufsize 2000 maxblocks          3960.0      10398.5     26.3
+File Copy 256 bufsize 500 maxblocks            1655.0       2698.0     16.3
+File Copy 4096 bufsize 8000 maxblocks          5800.0      37022.5     63.8
+Pipe Throughput                               12440.0      17357.7     14.0
+Pipe-based Context Switching                   4000.0       4672.0     11.7
+Process Creation                                126.0        502.4     39.9
+Shell Scripts (1 concurrent)                     42.4        191.9     45.3
+Shell Scripts (8 concurrent)                      6.0         22.3     37.2
+System Call Overhead                          15000.0      12337.7      8.2
+                                                                   ========
+System Benchmarks Index Score                                          30.9

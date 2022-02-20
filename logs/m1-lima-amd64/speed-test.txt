@@ -1,0 +1,5 @@
+root@1210fc6d9b80:/work# ./scripts/speed-test.sh 
+
+      Ping   209 ms
+  Download   58 Mbps
+    Upload   13 Mbps

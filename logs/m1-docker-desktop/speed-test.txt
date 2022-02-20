@@ -1,1 +1,5 @@
-{"ping":25,"download":51.7,"upload":49.8}
+root@d5c56d001eaa:/work# ./scripts/speed-test.sh 
+
+      Ping   25 ms
+  Download   153 Mbps
+    Upload   75 Mbps
